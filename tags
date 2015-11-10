@@ -1,0 +1,63 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALLOWED_HOSTS	fanksite/settings.py	/^ALLOWED_HOSTS = []$/;"	v
+BASE_DIR	fanksite/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v
+Choice	polls/models.py	/^class Choice(models.Model):$/;"	c
+ChoiceInline	polls/admin.py	/^class ChoiceInline(admin.TabularInline):$/;"	c
+DATABASES	fanksite/settings.py	/^DATABASES = {$/;"	v
+DEBUG	fanksite/settings.py	/^DEBUG = True$/;"	v
+INSTALLED_APPS	fanksite/settings.py	/^INSTALLED_APPS = ($/;"	v
+LANGUAGE_CODE	fanksite/settings.py	/^LANGUAGE_CODE = 'zh-CN'$/;"	v
+MIDDLEWARE_CLASSES	fanksite/settings.py	/^MIDDLEWARE_CLASSES = ($/;"	v
+Migration	polls/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	polls/migrations/0002_auto_20151105_1333.py	/^class Migration(migrations.Migration):$/;"	c
+Question	polls/models.py	/^class Question(models.Model):$/;"	c
+QuestionAdmin	polls/admin.py	/^class QuestionAdmin(admin.ModelAdmin):$/;"	c
+ROOT_URLCONF	fanksite/settings.py	/^ROOT_URLCONF = 'fanksite.urls'$/;"	v
+SECRET_KEY	fanksite/settings.py	/^SECRET_KEY = 'q0^%8jql4dgwq-84t+t0t3(nixlq!g6#_c-1a!dh0f8rngldnm'$/;"	v
+STATIC_URL	fanksite/settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+TEMPLATES	fanksite/settings.py	/^TEMPLATES = [$/;"	v
+TIME_ZONE	fanksite/settings.py	/^TIME_ZONE = 'Asia\/Shanghai'$/;"	v
+USE_I18N	fanksite/settings.py	/^USE_I18N = True$/;"	v
+USE_L10N	fanksite/settings.py	/^USE_L10N = True$/;"	v
+USE_TZ	fanksite/settings.py	/^USE_TZ = True$/;"	v
+WSGI_APPLICATION	fanksite/settings.py	/^WSGI_APPLICATION = 'fanksite.wsgi.application'$/;"	v
+__str__	polls/models.py	/^    def __str__(self):              # __unicode__ on Python 2$/;"	m	class:Choice	file:
+__str__	polls/models.py	/^    def __str__(self):              # __unicode__ on Python 2$/;"	m	class:Question	file:
+application	fanksite/wsgi.py	/^application = get_wsgi_application()$/;"	v
+choice_text	polls/models.py	/^    choice_text = models.CharField(max_length=200)$/;"	v	class:Choice
+dependencies	polls/migrations/0001_initial.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	polls/migrations/0002_auto_20151105_1333.py	/^    dependencies = [$/;"	v	class:Migration
+detail	polls/views.py	/^def detail(request, question_id):$/;"	f
+extra	polls/admin.py	/^    extra = 3$/;"	v	class:ChoiceInline
+field	polls/migrations/0001_initial.py	/^            field=models.ForeignKey(to='polls.Question'),$/;"	v	class:Migration
+fields	polls/migrations/0001_initial.py	/^            fields=[$/;"	v	class:Migration
+fieldsets	polls/admin.py	/^    fieldsets = [$/;"	v	class:QuestionAdmin
+index	polls/views.py	/^def index(request):$/;"	f
+inlines	polls/admin.py	/^    inlines = [ChoiceInline]$/;"	v	class:QuestionAdmin
+list_display	polls/admin.py	/^    list_display = ('question_text', 'pub_date', 'was_published_recently')$/;"	v	class:QuestionAdmin
+list_filter	polls/admin.py	/^    list_filter = ['pub_date']$/;"	v	class:QuestionAdmin
+model	polls/admin.py	/^    model = Choice$/;"	v	class:ChoiceInline
+model_name	polls/migrations/0001_initial.py	/^            model_name='choice',$/;"	v	class:Migration
+model_name	polls/migrations/0002_auto_20151105_1333.py	/^            model_name='question',$/;"	v	class:Migration
+name	polls/migrations/0001_initial.py	/^            name='Choice',$/;"	v	class:Migration
+name	polls/migrations/0001_initial.py	/^            name='Question',$/;"	v	class:Migration
+name	polls/migrations/0001_initial.py	/^            name='question',$/;"	v	class:Migration
+new_name	polls/migrations/0002_auto_20151105_1333.py	/^            new_name='question_text',$/;"	v	class:Migration
+old_name	polls/migrations/0002_auto_20151105_1333.py	/^            old_name='question_test',$/;"	v	class:Migration
+operations	polls/migrations/0001_initial.py	/^    operations = [$/;"	v	class:Migration
+operations	polls/migrations/0002_auto_20151105_1333.py	/^    operations = [$/;"	v	class:Migration
+pub_date	polls/models.py	/^    pub_date = models.DateTimeField('date published')$/;"	v	class:Question
+question	polls/models.py	/^    question = models.ForeignKey(Question)$/;"	v	class:Choice
+question_text	polls/models.py	/^    question_text = models.CharField(max_length=200)$/;"	v	class:Question
+results	polls/views.py	/^def results(request, question_id):$/;"	f
+search_fields	polls/admin.py	/^    search_fields = ['question_text']$/;"	v	class:QuestionAdmin
+urlpatterns	fanksite/urls.py	/^urlpatterns = [$/;"	v
+urlpatterns	polls/urls.py	/^urlpatterns = [$/;"	v
+vote	polls/views.py	/^def vote(request, question_id):$/;"	f
+votes	polls/models.py	/^    votes = models.IntegerField(default=0)$/;"	v	class:Choice
+was_published_recently	polls/models.py	/^    def was_published_recently(self):$/;"	m	class:Question
